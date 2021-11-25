@@ -8,6 +8,7 @@
   static const BaseType_t app_cpu = 1;
 #endif
 
+#define kip 10
 // Settings
 static const uint8_t buf_len = 255;     // Size of buffer to look for command
 static const char command[] = "delay "; // Note the space!
